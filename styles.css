@@ -94,7 +94,7 @@ button {
   position: absolute;
   width: clamp(115px, 14vw, 176px);
   margin: 0;
-  padding: 10px 10px 38px;
+  padding: 10px;
   border: 1px solid rgba(63, 55, 49, 0.08);
   background: var(--white);
   box-shadow: var(--soft-shadow);
@@ -122,21 +122,6 @@ button {
   aspect-ratio: 3 / 4;
   object-fit: cover;
   filter: saturate(0.9) contrast(0.98);
-}
-
-.polaroid figcaption {
-  position: absolute;
-  right: 12px;
-  bottom: 10px;
-  left: 12px;
-  overflow: hidden;
-  color: var(--muted);
-  font-family: "Snell Roundhand", "Apple Chancery", "Segoe Script", cursive;
-  font-size: clamp(1.15rem, 2.1vw, 1.55rem);
-  line-height: 1.05;
-  text-align: center;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .polaroid-one {
@@ -394,7 +379,7 @@ h1 em {
 
   .polaroid {
     width: clamp(106px, 31vw, 152px);
-    padding: 8px 8px 30px;
+    padding: 8px;
   }
 
   .polaroid-two {
@@ -408,10 +393,6 @@ h1 em {
     bottom: clamp(176px, 22vh, 220px);
     left: 18px;
     width: clamp(106px, 31vw, 146px);
-  }
-
-  .polaroid figcaption {
-    font-size: 1.05rem;
   }
 
   .eyebrow {
@@ -445,7 +426,7 @@ h1 em {
 
   .polaroid {
     width: 106px;
-    padding: 7px 7px 28px;
+    padding: 7px;
   }
 
   .polaroid::before {
@@ -470,13 +451,6 @@ h1 em {
     bottom: auto;
     left: calc(50% - 54px);
     width: 102px;
-  }
-
-  .polaroid figcaption {
-    right: 8px;
-    bottom: 8px;
-    left: 8px;
-    font-size: 0.95rem;
   }
 
   .hero-copy {
